@@ -3,7 +3,6 @@ import time
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from collections import deque
-
 # Set up serial connection
 ser = serial.Serial('COM_PORT', 9600)  # Replace 'COM_PORT' with your actual COM port, e.g., 'COM4' or '/dev/ttyUSB0'
 
