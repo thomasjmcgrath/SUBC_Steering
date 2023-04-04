@@ -1,6 +1,7 @@
 #include <Arduino.h>
 const int analogPins[] = {A0, A1, A2, A3};
 
+#UPDOWNLEFTRIGHT
 void setup() {
   Serial.begin(9600);
 }
